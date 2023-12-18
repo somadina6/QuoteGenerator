@@ -1,0 +1,50 @@
+#body {
+  --bg-color: #fd7e14;
+  background-color: var(--bg-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border: 1px solid red;
+}
+
+#quote-box {
+  background-color: var(--bs-light);
+  min-width: 500px;
+  max-width: 800px;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#text {
+  padding: 0;
+  margin: 0;
+}
+
+.place-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#author {
+  text-align: right;
+  margin-right: 15px;
+}
+#author:before {
+  content: "- ";
+}
+
+.mybtn {
+  margin-top: -80px;
+}
+
+.x-centre {
+  display: block;
+  margin: 0 auto;
+}
